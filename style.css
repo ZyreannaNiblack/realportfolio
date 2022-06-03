@@ -4,15 +4,65 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  text-decoration-color: black;
 }
 
 li {
   float: left;
   border-right:1px solid #ffffff;
+  text-decoration-color: black;
 }
 
 li:last-child {
   border-right: none;
+}
+
+li a {
+  display: block;
+  color: #b3ffd9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: #b3ffd9;
+}
+
+.active {
+  background-color:  #b3ffd9;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-size: 60px;
+  border-style: groove;
+  background-color:#b3ffd9;
+}
+
+.logo{
+  text-align: center;
+}
+
+
+
+h3{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
 }
 
 li a {
@@ -23,27 +73,25 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+
+li a:hover {
   background-color: #111;
 }
 
-.active {
-  background-color:  #ffccff;
-}
-
-h1{
-  text-align: center;
-  color: black;
-  text-decoration: underline;
-  font-family: fantasy;
-}
-
-.logo{
-  text-align: center;
-}
-
 p {
-  text-align: left;
-  font-family: fantasy;
 
+  font-size: 45px;
+  font-style: fantasy;
+}
+
+.col-sm-4 {
+  border-style: groove;
+  font-size: 40px;
+  font-style: italic;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.resumess{
+text-align: center;
 }
